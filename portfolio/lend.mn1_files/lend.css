@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 57px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 999;
+}
+nav .logo{
+    width: 150px;
+    height: 57px;
+    margin-left: 200px;
+}
+nav menu{
+    width: 100%;
+    margin-left: 700px;
+    margin-right: 0px;
+    display: flex;
+    color: #5F717D;
+    align-items: center;
+    gap: 15px;
+    margin-top: -85px;
+}
+nav menu h5{
+    font-size: 13px;
+    margin-top: 40px;
+}
+nav menu h5:hover{
+    border-top: 3px solid #ff6600;
+    transition: all ease-in-out 250ms;
+    color: rgb(50, 50, 50);
+}
+nav menu .language{
+    width: 20px;
+    height: 20px;
+}
+@media screen and (max-width:1010px) {
+    nav{
+        display: none;
+    }
+    .big .child{
+        width: 100%;
+        height: 200px;
+        display: none;
+    }
+}
+.big{
+    width: 100%;
+    height: 540px;
+    display: flex;
+}
+.big .child{
+    width: 100%;
+    height: 540px;
+    margin-bottom: -57px;
+}
+.big .child video span{
+    color: #000;
+    z-index: 100;
+}
+.big .child video{
+    margin-left: -200px;
+}
+.big .child2 {
+    width: 100%;
+    height: 540px;
+}
+.big .child2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ul{
+    width: 77px;
+    height: 175px;
+    border: 2px solid #f2f2f2;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 9999;
+    padding: 0;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: -30px;
+}
+ul li{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-left: 45px;
+    margin-top: 13px;
+    color: #293c29;
+}
+ul li:hover{
+    color: #ff6600;
+}
+.messenger{
+    width: 200px;
+    height: 74px;
+    border: 2px solid #f2f2f2;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    top: 85%;
+    z-index: 9999;
+    padding: 0;
+    background-color: white;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.messenger a{
+    transition: .10s;
+}
+.messenger a i{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    color: #293C43;
+    font-size: 60px;
+    display: flex;
+    margin-left: 1430px;
+    margin-top: -60px;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.download{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+}
+.download .installs{
+    display: flex;
+    margin: auto;
+    gap: 55px;
+}
+.download .installs .install{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid dimgray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    gap: 5px;
+}
+.download .installs .install2{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    border: 2px solid dimgray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+    gap: 5px;
+}
+.download .installs .install2:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.download .installs .install:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 470px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+.main h1{
+    width: 100%;
+    height: 60px;
+    color: #293C43;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.main .bottom{
+    width: 200px;
+    height: 8px;
+    background-image: linear-gradient(302deg, #ff6600 46%, #f93702 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.main .container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 150px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main .container .child{
+    width: 100px;
+    height: 100px;
+    gap: 10px;
+}
+.main .container .child h1{
+    width: 100%;
+    font-size: 44px;
+}
+.main .container .child h3{
+    width: 130px;
+    margin-left: -10px;
+    color: #293C43;
+    display: flex;
+    justify-content: center;
+}
+.main .container .child p{
+    width: 220px;
+    font-size: 14px;
+    line-height: 20px;
+    /*font-weight: 300;*/
+    color: #5F717D;
+    justify-content: center;
+    text-align: center;
+    margin-left: -55px;
+}
+main{
+    width: 100%;
+    height: 470px;
+}
+main h1{
+    width: 100%;
+    height: 60px;
+    color: #293C43;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+main .bottom{
+    width: 200px;
+    height: 8px;
+    background-image: linear-gradient(302deg, #ff6600 46%, #f93702 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+main p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #293C43;
+}
+main .big_child{
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+main .container2 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 160px;
+    justify-content: center;
+    margin-top: 50px;
+}
+main .container2 .child3{
+    width: 100px;
+    height: 100px;
+}
+main .container2 .child3 h5{
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+main .container2 .child3 .h{
+    margin-left: -40px;
+}
+main .container2 .child3 .hh{
+    margin-left: -10px;
+}
+main .container2 .child3 .hhh{
+    margin-left: -15px;
+}
+main .container2 .child3 .child-p{
+    width: 260px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -100px;
+    font-size: 14px;
+    color: #5F717D;
+}
+main .container2 .child3 .child-p-2{
+    width: 280px;
+    margin-left: -90px;
+    font-size: 14px;
+    color: #5F717D;
+}
+main .container2 .child3 .child-p-3{
+    width: 250px;
+    margin-left: -80px;
+    font-size: 14px;
+    color: #5F717D;
+}
+main .container2 .child3 .child-p-4{
+    width: 230px;
+    margin-left: -70px;
+    font-size: 14px;
+    color: #5F717D;
+}
+main .container2 .more{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    color: #f93702;
+    border: 2px solid #f93702;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: -100px;
+    border-radius: 20px;
+}
+main .container2 .more:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+.marckting{
+    width: 100%;
+    height: 90px;
+    background-color: #f2f2f2;
+    margin-top: 430px;
+    display: flex;
+}
+.marckting .child{
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marckting .child img{
+    opacity: 0.6;
+}
+.marckting .child img:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.main-2{
+    width: 100%;
+    height: 470px;
+}
+.main-2 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #293C43;
+}
+.main-2 .bottom{
+    width: 200px;
+    height: 8px;
+    background-image: linear-gradient(302deg, #ff6600 46%, #f93702 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.main-2 .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.main-2 .more{
+    width: 350px;
+    height: 40px;
+    display: flex;
+    color: #f93702;
+    border: 2px solid #f93702;
+    align-items: center;
+    justify-content: center;
+    margin-left: 590px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.main-2 .more:hover{
+    background-color: #ff6600;
+    color: #fff;
+}
+.shagnal{
+    width: 100%;
+    height: 310px;
+    background-image: url(./img/ipoheader.jpg);
+    margin-top: -150px;
+}
+.shagnal .word{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    align-content: center;
+}
+.shagnal .word h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.shagnal .word .bottom{
+    width: 200px;
+    height: 8px;
+    background-image: linear-gradient(302deg, #ff6600 46%, #f93702 100%);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 5px;
+}
+.shagnal .word .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #fff;
+}
+.shagnal .container-5{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px 180px 180px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.shagnal .container-5 .child{
+    width: auto;
+    height: 90px;
+}
+.shagnal .container-5 img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+footer{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    background-color: #f2f2f2;
+}
+footer .text{
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    margin: 50px;
+    gap: 40px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+footer .text h4{
+    color: #293C43;
+}
+footer .text p{
+    color: #5F717D;
+}
+footer .text p:hover{
+    color: #293C43;
+}
+footer .holboo{
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+footer .holboo i{
+    margin-left: 30px;
+    color: #293C43;
+}
+footer .holboo p{
+    margin-left: -100px;
+    margin-top: 20px;
+    color: #5F717D;
+}
+footer .holboo i:hover{
+    color: #ff6600;
+}
+footer .holboo .the-end {
+    display: flex;
+    gap: 105px;
+}
+footer .holboo .the-end .tusgai:hover{
+    color: #0056b3;
+}

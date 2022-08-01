@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.802" height="28.786" viewBox="0 0 27.802 28.786">
+  <g id="Moderate-Rain" transform="translate(-2 -1)">
+    <g id="Moderate-rain-2" data-name="Moderate-rain" transform="translate(3 2)">
+      <g id="Group-2">
+        <path id="Oval" d="M9.641,4.506a6.742,6.742,0,1,0,1.823,10.9" fill="none" stroke="#ff9c05" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Oval-2" data-name="Oval" d="M9.97,13.544a8.666,8.666,0,1,0-1.3-6.729" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      </g>
+      <g id="Group-3" transform="translate(12.381 18) rotate(25)">
+        <path id="Path-5" d="M5,0V2" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-6" d="M5,5V7" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-5-2" data-name="Path-5" d="M1,1V3" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-6-2" data-name="Path-6" d="M1,6V8" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      </g>
+      <g id="Group-3-2" data-name="Group-3" transform="translate(3.381 18) rotate(25)">
+        <path id="Path-5-3" data-name="Path-5" d="M5,0V2" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-6-3" data-name="Path-6" d="M5,5V7" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-5-4" data-name="Path-5" d="M1,1V3" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+        <path id="Path-6-4" data-name="Path-6" d="M1,6V8" fill="none" stroke="#ff9c05" stroke-linecap="round" stroke-width="2" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></svg>

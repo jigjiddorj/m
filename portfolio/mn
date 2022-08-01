@@ -1,0 +1,17 @@
+<div class="contact">
+            <div class="child">
+                <i class="fa-solid fa-phone">
+                    <p class="phone">99281805</p>
+                </i>
+            </div>
+            <div class="child">
+                <i class="fa-solid fa-envelope">
+                    <p class="mail">ganzorigjigjiddorj<br>@gmail.com</p>
+                </i>
+            </div>
+            <div class="child">
+                <i class="fa-brands fa-facebook-f">
+                    <p class="facebook">Jackson Jeegii</p>
+                </i>
+            </div>
+        </div>
